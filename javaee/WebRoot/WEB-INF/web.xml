@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" version="3.0">
+  <display-name>javaee</display-name>
+  <servlet>
+    <description>JAX-RS Tools Generated - Do not modify</description>
+    <servlet-name>JAX-RS Servlet</servlet-name>
+    <servlet-class>com.sun.jersey.spi.container.servlet.ServletContainer</servlet-class>
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>loginservlet</servlet-name>
+    <servlet-class>servlet.loginservlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddxueyuanServlet</servlet-name>
+    <servlet-class>servlet.AddxueyuanServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QueryxyServlet</servlet-name>
+    <servlet-class>servlet.QueryxyServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>delectXY</servlet-name>
+    <servlet-class>servlet.delectXY</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>delectXYServlet</servlet-name>
+    <servlet-class>servlet.delectXYServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>reXYServlet</servlet-name>
+    <servlet-class>servlet.reXYServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddstuServlet</servlet-name>
+    <servlet-class>servlet.AddstuServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DestuServlet</servlet-name>
+    <servlet-class>servlet.DestuServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RestuServlet</servlet-name>
+    <servlet-class>servlet.RestuServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>registerServlet</servlet-name>
+    <servlet-class>servlet.registerServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>deoadminServlet</servlet-name>
+    <servlet-class>servlet.deoadminServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>repwdServlet</servlet-name>
+    <servlet-class>servlet.repwdServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ReadminServlet</servlet-name>
+    <servlet-class>servlet.ReadminServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CharacterEncodingFilter</servlet-name>
+    <servlet-class>servlet.CharacterEncodingFilter</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>StuquertServlet</servlet-name>
+    <servlet-class>servlet.StuquertServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>aRestuServlet</servlet-name>
+    <servlet-class>servlet.aRestuServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AReadminServlet</servlet-name>
+    <servlet-class>servlet.AReadminServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>JAX-RS Servlet</servlet-name>
+    <url-pattern>/jaxrs/*</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>loginservlet</servlet-name>
+    <url-pattern>/servlet/loginservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddxueyuanServlet</servlet-name>
+    <url-pattern>/servlet/AddxueyuanServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryxyServlet</servlet-name>
+    <url-pattern>/servlet/QueryxyServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>delectXY</servlet-name>
+    <url-pattern>/servlet/delectXY</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>delectXYServlet</servlet-name>
+    <url-pattern>/servlet/delectXYServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>reXYServlet</servlet-name>
+    <url-pattern>/servlet/reXYServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddstuServlet</servlet-name>
+    <url-pattern>/servlet/AddstuServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DestuServlet</servlet-name>
+    <url-pattern>/servlet/DestuServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RestuServlet</servlet-name>
+    <url-pattern>/servlet/RestuServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>registerServlet</servlet-name>
+    <url-pattern>/servlet/registerServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>deoadminServlet</servlet-name>
+    <url-pattern>/servlet/deoadminServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>repwdServlet</servlet-name>
+    <url-pattern>/servlet/repwdServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ReadminServlet</servlet-name>
+    <url-pattern>/servlet/ReadminServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CharacterEncodingFilter</servlet-name>
+    <url-pattern>/servlet/CharacterEncodingFilter</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>StuquertServlet</servlet-name>
+    <url-pattern>/servlet/StuquertServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>aRestuServlet</servlet-name>
+    <url-pattern>/servlet/aRestuServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AReadminServlet</servlet-name>
+    <url-pattern>/servlet/AReadminServlet</url-pattern>
+  </servlet-mapping>
+
+  
+</web-app>

@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <display-name></display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Mainservlet</servlet-name>
+    <servlet-class>Mainservlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddStuServlet</servlet-name>
+    <servlet-class>servlet.AddStuServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginServlet1</servlet-name>
+    <servlet-class>servlet.LoginServlet1</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginServlet2</servlet-name>
+    <servlet-class>servlet.LoginServlet2</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>InsertstuServlet1</servlet-name>
+    <servlet-class>servlet.InsertstuServlet1</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Updatestuservlet1</servlet-name>
+    <servlet-class>servlet.Updatestuservlet1</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdatestuServlet</servlet-name>
+    <servlet-class>servlet.UpdatestuServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeletestuServlet</servlet-name>
+    <servlet-class>servlet.DeletestuServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdatemajorServlet</servlet-name>
+    <servlet-class>servlet.UpdatemajorServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeletemajorServlet</servlet-name>
+    <servlet-class>servlet.DeletemajorServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>InsertmajorServlet</servlet-name>
+    <servlet-class>servlet.InsertmajorServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>InsertclassServlet</servlet-name>
+    <servlet-class>servlet.InsertclassServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateclassServlet</servlet-name>
+    <servlet-class>servlet.UpdateclassServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteclassServlet</servlet-name>
+    <servlet-class>servlet.DeleteclassServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeletecollegeServlet</servlet-name>
+    <servlet-class>servlet.DeletecollegeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>InsertcollegeServlet</servlet-name>
+    <servlet-class>servlet.InsertcollegeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdatecollegeServlet</servlet-name>
+    <servlet-class>servlet.UpdatecollegeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GuanliyuanServlet</servlet-name>
+    <servlet-class>servlet.GuanliyuanServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>NewpwdServlet</servlet-name>
+    <servlet-class>servlet.NewpwdServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>Mainservlet</servlet-name>
+    <url-pattern>/servlet/Mainservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddStuServlet</servlet-name>
+    <url-pattern>/servlet/AddStuServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginServlet1</servlet-name>
+    <url-pattern>/servlet/LoginServlet1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginServlet2</servlet-name>
+    <url-pattern>/servlet/LoginServlet2</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>InsertstuServlet1</servlet-name>
+    <url-pattern>/servlet/InsertstuServlet1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Updatestuservlet1</servlet-name>
+    <url-pattern>/servlet/Updatestuservlet1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdatestuServlet</servlet-name>
+    <url-pattern>/servlet/UpdatestuServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeletestuServlet</servlet-name>
+    <url-pattern>/servlet/DeletestuServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdatemajorServlet</servlet-name>
+    <url-pattern>/servlet/UpdatemajorServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeletemajorServlet</servlet-name>
+    <url-pattern>/servlet/DeletemajorServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>InsertmajorServlet</servlet-name>
+    <url-pattern>/servlet/InsertmajorServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>InsertclassServlet</servlet-name>
+    <url-pattern>/servlet/InsertclassServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateclassServlet</servlet-name>
+    <url-pattern>/servlet/UpdateclassServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteclassServlet</servlet-name>
+    <url-pattern>/servlet/DeleteclassServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeletecollegeServlet</servlet-name>
+    <url-pattern>/servlet/DeletecollegeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>InsertcollegeServlet</servlet-name>
+    <url-pattern>/servlet/InsertcollegeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdatecollegeServlet</servlet-name>
+    <url-pattern>/servlet/UpdatecollegeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GuanliyuanServlet</servlet-name>
+    <url-pattern>/servlet/GuanliyuanServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>NewpwdServlet</servlet-name>
+    <url-pattern>/servlet/NewpwdServlet</url-pattern>
+  </servlet-mapping>	
+  <welcome-file-list>
+    <welcome-file>Mainlogin.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
